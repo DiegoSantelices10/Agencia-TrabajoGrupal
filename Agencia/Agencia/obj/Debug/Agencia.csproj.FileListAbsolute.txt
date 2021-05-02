@@ -1,0 +1,13 @@
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\bin\Debug\Agencia.exe.config
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\bin\Debug\Agencia.exe
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\bin\Debug\Agencia.pdb
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.csprojAssemblyReference.cache
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.Properties.Resources.resources
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.csproj.GenerateResource.cache
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.csproj.CoreCompileInputs.cache
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.exe
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.pdb
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.Login.resources
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.Views.Administrador.resources
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.Views.Cliente.resources
+C:\Users\BGH\Desktop\PlataformasDeProgramacion\Agencia\Agencia\obj\Debug\Agencia.Views.Form1.resources
