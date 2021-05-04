@@ -50,7 +50,7 @@ namespace Agencia.Views
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(693, 0);
+            this.btnCerrar.Location = new System.Drawing.Point(818, 0);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(30, 30);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -62,7 +62,7 @@ namespace Agencia.Views
             // 
             this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(657, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(782, 0);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(30, 30);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -76,7 +76,7 @@ namespace Agencia.Views
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(314, 63);
+            this.label2.Location = new System.Drawing.Point(371, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 33);
             this.label2.TabIndex = 15;
@@ -87,7 +87,7 @@ namespace Agencia.Views
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(320, 174);
+            this.textBox1.Location = new System.Drawing.Point(394, 184);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(284, 24);
             this.textBox1.TabIndex = 16;
@@ -98,7 +98,7 @@ namespace Agencia.Views
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(119, 175);
+            this.label1.Location = new System.Drawing.Point(193, 185);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 23);
             this.label1.TabIndex = 17;
@@ -110,7 +110,7 @@ namespace Agencia.Views
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(119, 215);
+            this.label3.Location = new System.Drawing.Point(193, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 23);
             this.label3.TabIndex = 19;
@@ -121,7 +121,7 @@ namespace Agencia.Views
             this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(320, 214);
+            this.textBox2.Location = new System.Drawing.Point(394, 224);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(284, 24);
             this.textBox2.TabIndex = 18;
@@ -132,7 +132,7 @@ namespace Agencia.Views
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(119, 260);
+            this.label4.Location = new System.Drawing.Point(193, 270);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(195, 23);
             this.label4.TabIndex = 21;
@@ -143,7 +143,7 @@ namespace Agencia.Views
             this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(320, 259);
+            this.textBox3.Location = new System.Drawing.Point(394, 269);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(284, 24);
             this.textBox3.TabIndex = 20;
@@ -156,7 +156,7 @@ namespace Agencia.Views
             this.comboBox1.Items.AddRange(new object[] {
             "Hotel",
             "Cabaña"});
-            this.comboBox1.Location = new System.Drawing.Point(320, 304);
+            this.comboBox1.Location = new System.Drawing.Point(394, 314);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(284, 31);
             this.comboBox1.TabIndex = 22;
@@ -167,7 +167,7 @@ namespace Agencia.Views
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(119, 312);
+            this.label5.Location = new System.Drawing.Point(193, 322);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(182, 23);
             this.label5.TabIndex = 23;
@@ -176,7 +176,7 @@ namespace Agencia.Views
             // buscar
             // 
             this.buscar.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buscar.Location = new System.Drawing.Point(497, 358);
+            this.buscar.Location = new System.Drawing.Point(571, 368);
             this.buscar.Name = "buscar";
             this.buscar.Size = new System.Drawing.Size(107, 31);
             this.buscar.TabIndex = 24;
@@ -189,7 +189,7 @@ namespace Agencia.Views
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(727, 453);
+            this.ClientSize = new System.Drawing.Size(860, 481);
             this.Controls.Add(this.buscar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);

@@ -37,6 +37,7 @@ namespace Agencia.Views
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +50,7 @@ namespace Agencia.Views
             this.comboBox1.Items.AddRange(new object[] {
             "Hotel",
             "Cabaña"});
-            this.comboBox1.Location = new System.Drawing.Point(179, 246);
+            this.comboBox1.Location = new System.Drawing.Point(245, 317);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(385, 31);
             this.comboBox1.TabIndex = 7;
@@ -57,7 +58,7 @@ namespace Agencia.Views
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(179, 176);
+            this.button1.Location = new System.Drawing.Point(245, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 31);
             this.button1.TabIndex = 8;
@@ -68,7 +69,7 @@ namespace Agencia.Views
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(306, 175);
+            this.button2.Location = new System.Drawing.Point(372, 246);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 32);
             this.button2.TabIndex = 9;
@@ -78,7 +79,7 @@ namespace Agencia.Views
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(435, 174);
+            this.button3.Location = new System.Drawing.Point(501, 245);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(129, 33);
             this.button3.TabIndex = 10;
@@ -116,18 +117,31 @@ namespace Agencia.Views
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(279, 63);
+            this.label2.Location = new System.Drawing.Point(340, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 33);
             this.label2.TabIndex = 13;
             this.label2.Text = "Administrador";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(366, 168);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 33);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Consultar:";
             // 
             // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(733, 454);
+            this.ClientSize = new System.Drawing.Size(860, 480);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMinimizar);
@@ -153,5 +167,6 @@ namespace Agencia.Views
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -37,6 +37,7 @@ namespace Agencia
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -48,7 +49,7 @@ namespace Agencia
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Cambria", 15F);
             this.txtUsername.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtUsername.Location = new System.Drawing.Point(234, 206);
+            this.txtUsername.Location = new System.Drawing.Point(313, 232);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(255, 24);
             this.txtUsername.TabIndex = 2;
@@ -61,7 +62,7 @@ namespace Agencia
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Cambria", 15F);
             this.txtPassword.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtPassword.Location = new System.Drawing.Point(234, 244);
+            this.txtPassword.Location = new System.Drawing.Point(313, 278);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(255, 24);
             this.txtPassword.TabIndex = 3;
@@ -75,7 +76,7 @@ namespace Agencia
             this.seleccion.Items.AddRange(new object[] {
             "Cliente",
             "Administrador"});
-            this.seleccion.Location = new System.Drawing.Point(234, 282);
+            this.seleccion.Location = new System.Drawing.Point(313, 321);
             this.seleccion.Name = "seleccion";
             this.seleccion.Size = new System.Drawing.Size(255, 31);
             this.seleccion.TabIndex = 4;
@@ -109,9 +110,9 @@ namespace Agencia
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(327, 111);
+            this.pictureBox1.Location = new System.Drawing.Point(401, 129);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(66, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(70, 72);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -124,7 +125,7 @@ namespace Agencia
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(129, 373);
+            this.btnLogin.Location = new System.Drawing.Point(200, 380);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(470, 45);
             this.btnLogin.TabIndex = 12;
@@ -132,13 +133,27 @@ namespace Agencia
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(320, 62);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(234, 33);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Login Cliente/admin\r\n";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(724, 452);
+            this.ClientSize = new System.Drawing.Size(860, 481);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCerrar);
@@ -165,6 +180,7 @@ namespace Agencia
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Label label2;
     }
 }
 
