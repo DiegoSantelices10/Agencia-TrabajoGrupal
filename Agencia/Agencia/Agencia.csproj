@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="JMetroTextBox">
+      <HintPath>..\..\..\..\..\Desktop\JControls\JMetroTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="JThinButton">
+      <HintPath>..\..\..\..\..\Desktop\JControls\JThinButton.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -47,6 +53,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agencia.cs" />
+    <Compile Include="AgenciaManager.cs" />
+    <Compile Include="Alojamiento.cs" />
+    <Compile Include="Cabaña.cs" />
+    <Compile Include="Hotel.cs" />
+    <Compile Include="Reserva.cs" />
+    <Compile Include="Usuario.cs" />
     <Compile Include="Views\CambiarContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +112,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\CambiarContraseña.resx">
       <DependentUpon>CambiarContraseña.cs</DependentUpon>
@@ -115,6 +129,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\fondoLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\fondoAdministrador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\fondoCambiar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\fondoCliente.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

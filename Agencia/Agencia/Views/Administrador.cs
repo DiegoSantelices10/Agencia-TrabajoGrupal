@@ -47,5 +47,10 @@ namespace Agencia.Views
         {
             Application.Exit();
         }
+
+        private void Administrador_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

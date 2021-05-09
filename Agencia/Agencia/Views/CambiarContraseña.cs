@@ -16,5 +16,10 @@ namespace Agencia
         {
             InitializeComponent();
         }
+
+        private void RecuperarContraseña_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

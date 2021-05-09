@@ -12,7 +12,9 @@ namespace Agencia.Views
 {
     public partial class Form1 : Form
     {
-       
+     
+        
+
         private Login login;
         public Form1()
         {

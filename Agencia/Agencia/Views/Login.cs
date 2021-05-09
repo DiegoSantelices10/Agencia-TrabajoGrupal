@@ -13,26 +13,10 @@ namespace Agencia
 {
     public partial class Login : Form
     {
-        private Administrador admin;
         private Form1 form;
         public Login()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnMinimizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -47,7 +31,9 @@ namespace Agencia
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            String selec =seleccion.SelectedItem.ToString();
+           
+
+        String selec =seleccion.SelectedItem.ToString();
             if(selec == "Administrador")
             {
             Administrador admin = new Administrador();
@@ -75,6 +61,31 @@ namespace Agencia
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_MouseDown(object sender, MouseEventArgs e)
+        {
+           
+        }
+
+        private void Login_MouseUp(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void Login_MouseMove(object sender, MouseEventArgs e)
+        {
+          
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
