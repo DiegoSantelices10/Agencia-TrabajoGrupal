@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agencia
 {
-    class Agencia 
+    public class Agencia 
     {
         List<Alojamiento> misAlojamientos = new List<Alojamiento>();
         List<Usuario> misUsuarios = new List<Usuario>();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agencia
 {
-    class Hotel : Alojamiento
+    public class Hotel : Alojamiento
     {
 
     }

@@ -3,20 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using Agencia;
 
 namespace Agencia
 {
-    class AgenciaManager
+    public class AgenciaManager
     {
+
         List<Usuario> misUsuarios = new List<Usuario>();
         List<Reserva> misReservas = new List<Reserva>();
-        public Agencia miAgencia;
+        public Agencia miAgencia = new Agencia();
+        public Usuario us;
+
+        
 
         public List<string> buscarAlojamiento(string ciudad, DateTime pDesde, DateTime pHasta, int cantPersonas, string tipo)
         {
+            
             List<string> busqueda = new List<string>();
             return busqueda;
-
+          
         }
 
         public bool agregarAlojamiento(Alojamiento al)
@@ -65,10 +72,31 @@ namespace Agencia
             return true;
         }
 
-        public bool agregarUsuario(Usuario u)
+      
+
+
+
+        public bool agregarUsuario(int dni, string username, string email, string password, string esAdmin)
         {
-            return true;
+               bool admin = true;
+
+            if (esAdmin == "Administrador")
+            {
+                us = new Usuario(dni, username, email, password, admin);  
+                misUsuarios.Add(us);
+                MessageBox.Show("se agrego al administrador correctamente");
+            } else
+             {
+                admin = false;
+                us = new Usuario(dni, username, email, password, admin);
+                
+                misUsuarios.Add(us);
+               
+                MessageBox.Show("se agrego al usuario correctamente");
+            }
+            return admin;
         }
+
 
         public bool modificarUsuario(Usuario u)
         {
@@ -81,7 +109,17 @@ namespace Agencia
             return true;
         }
 
+        public void mostrarUsuario()
+        {
+            
+            foreach (var usuario in misUsuarios)
+            {
+                Console.WriteLine($"( nombre: {usuario.nombre}) (dni: {usuario.dni}) (password:{usuario.password}) (email: {usuario.email})");
 
+
+
+            }
+        }
 
 
 

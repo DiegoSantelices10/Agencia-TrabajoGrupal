@@ -28,3 +28,5 @@ C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agenci
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\bin\Debug\JMetroTextBox.dll
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\bin\Debug\JThinButton.dll
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.csproj.CopyComplete
+C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.RegistroUsuario.resources
+C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\bin\Debug\FontAwesome.Sharp.dll

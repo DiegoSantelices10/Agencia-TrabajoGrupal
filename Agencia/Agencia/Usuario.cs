@@ -6,23 +6,28 @@ using System.Threading.Tasks;
 
 namespace Agencia
 {
-    class Usuario
+    public class Usuario
     {
-        private int DNI;
-        private string nombre;
-        private string email;
-        private string password;
-        private bool esAdmin;
-        private bool bloqueado;
+        public int dni { get; set; }
+        public string nombre { get; set; }
+        public string email { get; set; }
+        public string password { get; set; }
+        public bool esAdmin { get; set; }
+        public bool bloqueado { get; set; }
 
-        public Usuario(int dNI, string nombre, string email, string password, bool esAdmin, bool bloqueado)
+
+
+
+        public Usuario(int dni, string nombre, string email, string password, bool esAdmin)
         {
-            DNI = dNI;
+            this.dni = dni;
             this.nombre = nombre;
             this.email = email;
             this.password = password;
-            this.esAdmin = esAdmin;
-            this.bloqueado = bloqueado;
+            this.esAdmin = esAdmin; 
         }
+
+
+
     }
 }

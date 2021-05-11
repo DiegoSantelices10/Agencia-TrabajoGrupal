@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agencia
 {
-    class Reserva
+    public class Reserva
     {
         private int ID { get; set; }
         private DateTime fDesde { get; set; }
@@ -16,7 +16,7 @@ namespace Agencia
         public Alojamiento propiedad;
         public Usuario persona;
 
-        public Reserva(int iD, DateTime fDesde, DateTime dHasta, float precio, Alojamiento propiedad, Usuario persona)
+         Reserva(int iD, DateTime fDesde, DateTime dHasta, float precio, Alojamiento propiedad, Usuario persona)
         {
             ID = iD;
             this.fDesde = fDesde;
