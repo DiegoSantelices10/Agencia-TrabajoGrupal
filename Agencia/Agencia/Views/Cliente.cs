@@ -13,11 +13,13 @@ namespace Agencia.Views
 {
     public partial class Cliente : Form
     {
+        private Form currentChildForm;
         public Cliente()
         {
             InitializeComponent();
             panel1.BackColor = Color.FromArgb(60, Color.Black);
             panel2.BackColor = Color.FromArgb(60, Color.Black);
+            OpenChildForm(new BusquedaAlojamiento());
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -44,6 +46,55 @@ namespace Agencia.Views
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+
+        private void OpenChildForm(Form childForm)
+        {
+            //open only form
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            currentChildForm = childForm;
+            //End
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel2.Controls.Add(childForm);
+            panel2.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            
+            
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new RecuperarContraseña());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AdmReservas());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login l = new Login();
+            l.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new BusquedaAlojamiento()); 
         }
     }
 }

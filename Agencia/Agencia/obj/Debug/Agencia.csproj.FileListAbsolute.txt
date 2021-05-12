@@ -34,3 +34,5 @@ C:\Users\BGH\Source\Repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agenci
 C:\Users\BGH\Source\Repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.AdmReservas.resources
 C:\Users\BGH\Source\Repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.AdmAlojamientos.resources
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.EditUsuario.resources
+C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.ResultadoBusqueda.resources
+C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.BusquedaAlojamiento.resources

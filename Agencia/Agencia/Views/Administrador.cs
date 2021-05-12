@@ -136,5 +136,12 @@ namespace Agencia.Views
         {
             OpenChildForm(new AdmAlojamientos());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login l = new Login();
+            l.Show();
+        }
     }
 }
