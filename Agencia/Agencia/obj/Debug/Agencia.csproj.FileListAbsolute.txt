@@ -30,3 +30,7 @@ C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\bin\Debug\JThinB
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.csproj.CopyComplete
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.RegistroUsuario.resources
 C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\BGH\Source\Repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.AdmUsuarios.resources
+C:\Users\BGH\Source\Repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.AdmReservas.resources
+C:\Users\BGH\Source\Repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.AdmAlojamientos.resources
+C:\Users\BGH\source\repos\Agencia-TrabajoGrupal\Agencia\Agencia\obj\Debug\Agencia.Views.EditUsuario.resources

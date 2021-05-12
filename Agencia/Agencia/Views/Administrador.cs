@@ -114,7 +114,27 @@ namespace Agencia.Views
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-           OpenChildForm(new RecuperarContraseña());
+           OpenChildForm(new AdmUsuarios());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AdmReservas());
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new AdmAlojamientos());
         }
     }
 }

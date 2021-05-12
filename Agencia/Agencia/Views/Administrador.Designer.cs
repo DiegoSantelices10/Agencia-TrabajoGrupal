@@ -96,6 +96,7 @@ namespace Agencia.Views
             this.label1.Size = new System.Drawing.Size(131, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Administrador";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button3
             // 
@@ -111,6 +112,7 @@ namespace Agencia.Views
             this.button3.Text = "Alojamientos";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -126,6 +128,7 @@ namespace Agencia.Views
             this.button2.Text = "Reservas";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -156,23 +159,25 @@ namespace Agencia.Views
             this.iconPictureBox1.Size = new System.Drawing.Size(91, 93);
             this.iconPictureBox1.TabIndex = 0;
             this.iconPictureBox1.TabStop = false;
+            this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(179, 48);
+            this.panel2.Location = new System.Drawing.Point(181, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(682, 410);
+            this.panel2.Size = new System.Drawing.Size(678, 410);
             this.panel2.TabIndex = 28;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(682, 410);
+            this.panel3.Size = new System.Drawing.Size(678, 410);
             this.panel3.TabIndex = 0;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 

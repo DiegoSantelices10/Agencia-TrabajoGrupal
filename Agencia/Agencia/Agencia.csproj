@@ -63,6 +63,24 @@
     <Compile Include="Hotel.cs" />
     <Compile Include="Reserva.cs" />
     <Compile Include="Usuario.cs" />
+    <Compile Include="Views\AdmReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdmReservas.Designer.cs">
+      <DependentUpon>AdmReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdmUsuarios.Designer.cs">
+      <DependentUpon>AdmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdmAlojamientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdmAlojamientos.Designer.cs">
+      <DependentUpon>AdmAlojamientos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\CambiarContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +98,12 @@
     </Compile>
     <Compile Include="Views\Cliente.Designer.cs">
       <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\EditUsuario.Designer.cs">
+      <DependentUpon>EditUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Form1.cs">
       <SubType>Form</SubType>
@@ -137,8 +161,20 @@
     <EmbeddedResource Include="Views\Administrador.resx">
       <DependentUpon>Administrador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdmReservas.resx">
+      <DependentUpon>AdmReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdmUsuarios.resx">
+      <DependentUpon>AdmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdmAlojamientos.resx">
+      <DependentUpon>AdmAlojamientos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EditUsuario.resx">
+      <DependentUpon>EditUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

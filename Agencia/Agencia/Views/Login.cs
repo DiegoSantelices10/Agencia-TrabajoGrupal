@@ -15,7 +15,7 @@ namespace Agencia
     public partial class Login : Form
     {
         AgenciaManager ag = new AgenciaManager();
-        Form1 form;
+       
         Administrador admin;
         Cliente client;
         public Login()
